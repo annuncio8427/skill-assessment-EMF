@@ -1,8 +1,9 @@
 # skill-assessment-EMF
 
 **The Signal Guardian: How EBCs Create the Coaxial Cable**
-
-![Coaxial Cable Structure](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/coaxial-cable-diagram.png)
+<p align="center">
+<img width="751" height="300" alt="Screenshot 2025-11-13 155609" src="https://github.com/user-attachments/assets/58f9703c-d92c-44f0-86fc-42eef78cb379" />
+</p>
 
 ## 1. Introduction: The Perfect Signal Prison
 
@@ -15,8 +16,6 @@ Its two primary jobs are:
 
 These two functions are performed by creating two electromagnetically isolated "universes" on the inside and outside of the cable's metal shield. This isolation is not a suggestion; it is a hard physical law dictated by EBCs.
 
-![Coaxial Cable Field Diagram](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/field-diagram.png)
-
 ## 3. The "Internal Universe": Guiding the Signal
 
 This is the primary function of the cable, governed by the Conductor-Dielectric boundary rules. The signal is an EM wave that travels only in the dielectric insulator (the white plastic) between the center wire and the outer shield.
@@ -24,14 +23,19 @@ This is the primary function of the cable, governed by the Conductor-Dielectric 
 ### Boundary 1: Center Wire (Conductor) Dielectric
 
 **Rule 1: (Tangential E-Field is Zero)**
-
-![Tangential E-Field Equation](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/et-equation.png)
+<p align="center">
+<img width="151" height="71" alt="Screenshot 2025-11-13 155617" src="https://github.com/user-attachments/assets/12ddb06c-93bd-4dc6-b24a-e4ee12e38686" />
+</p>
 
 This law dictates that the electric field of the signal must leave the center conductor's surface at a perfect 90° angle. It cannot travel along the surface. This forces the E-field to be purely radial.
 
 **Rule 2: Normal D-Field = Surface Charge**
 
-![Normal D-Field Equation](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/dn-equation.png)
+
+<p align="center">
+<img width="139" height="65" alt="Screenshot 2025-11-13 155625" src="https://github.com/user-attachments/assets/484922c9-62d7-4640-9cfe-559d98a4c966" />
+</p>
+
 
 This law states that the strength of that radial E-field is exactly proportional to the signal charge on the center wire at that instant. This ensures that all the energy launched into the dielectric perfectly matches the signal's voltage.
 
@@ -39,9 +43,17 @@ This law states that the strength of that radial E-field is exactly proportional
 
 **Rule 1:**
 
+<p align="center">
+<img width="151" height="71" alt="Screenshot 2025-11-13 155617" src="https://github.com/user-attachments/assets/12ddb06c-93bd-4dc6-b24a-e4ee12e38686" />
+</p>
+
 The same law applies here. The E-field, having traveled radially across the dielectric, must arrive at the inner surface of the shield at a perfect 90° angle.
 
 **Rule 2:**
+
+<p align="center">
+<img width="139" height="65" alt="Screenshot 2025-11-13 155625" src="https://github.com/user-attachments/assets/484922c9-62d7-4640-9cfe-559d98a4c966" />
+</p>
 
 The E-field must terminate on this surface. To do so, it induces an equal and opposite surface charge on the inner surface of the shield, effectively "catching" 100% of the field.
 
@@ -57,9 +69,17 @@ This is the cable's critical secondary function, which also relies on the Conduc
 
 **Rule 1:**
 
+<p align="center">
+<img width="151" height="71" alt="Screenshot 2025-11-13 155617" src="https://github.com/user-attachments/assets/12ddb06c-93bd-4dc6-b24a-e4ee12e38686" />
+</p>
+
 When the external noise wave hits the outer surface of the shield, this law forces its tangential (parallel) component to become zero. The conductor effectively "shorts out" this part of the wave's energy.
 
 **Rule 2:**
+
+<p align="center">
+<img width="139" height="65" alt="Screenshot 2025-11-13 155625" src="https://github.com/user-attachments/assets/484922c9-62d7-4640-9cfe-559d98a4c966" />
+</p>
 
 The perpendicular component of the noise field (D_n) is terminated by a "wall" of surface charge. The free electrons in the conductive shield instantly rearrange themselves on the outer surface to create a charge layer that perfectly cancels the external noise field.
 
@@ -71,6 +91,10 @@ The EBCs create two totally isolated electromagnetic regions:
 - **The Noise Universe:** Exists outside, defined by the external noise field and the canceling charge on the outer surface of the shield.
 
 Because the conductor is a "perfect" barrier (due to the "skin effect" at high frequencies), the noise on the outside cannot physically interact with the signal on the inside. The outer shield acts as a perfect Faraday Cage.
+
+<p align="center">
+<img width="602" height="418" alt="Screenshot 2025-11-13 155635" src="https://github.com/user-attachments/assets/6cf0541d-7527-4058-b1f5-4d18b81ede4c" />
+</p>
 
 ## The Dielectric Itself: Setting the Speed Limit
 
@@ -84,7 +108,9 @@ This impedance is Z₀ = √(L/C). The capacitance, C, is determined by the perm
 
 **Rule 4:** D_n1 = D_n2 (Normal D-Field is Continuous)
 
-![Dielectric Polarization](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/dielectric-polarization.png)
+<p align="center">
+<img width="663" height="303" alt="Screenshot 2025-11-13 155650" src="https://github.com/user-attachments/assets/8a5ac6f9-3fb2-4d8c-b759-7c7ebb50661c" />
+</p>
 
 ### Practical Result: The "Perfect Highway"
 
