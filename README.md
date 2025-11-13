@@ -2,6 +2,8 @@
 
 **The Signal Guardian: How EBCs Create the Coaxial Cable**
 
+![Coaxial Cable Structure](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/coaxial-cable-diagram.png)
+
 ## 1. Introduction: The Perfect Signal Prison
 
 The coaxial cable is the unsung hero of high-frequency communication, carrying everything from your internet data (DOCSIS) to satellite TV signals and critical radar feeds. Its entire design is a masterclass in applied Electric Boundary Conditions.
@@ -13,6 +15,8 @@ Its two primary jobs are:
 
 These two functions are performed by creating two electromagnetically isolated "universes" on the inside and outside of the cable's metal shield. This isolation is not a suggestion; it is a hard physical law dictated by EBCs.
 
+![Coaxial Cable Field Diagram](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/field-diagram.png)
+
 ## 3. The "Internal Universe": Guiding the Signal
 
 This is the primary function of the cable, governed by the Conductor-Dielectric boundary rules. The signal is an EM wave that travels only in the dielectric insulator (the white plastic) between the center wire and the outer shield.
@@ -21,9 +25,13 @@ This is the primary function of the cable, governed by the Conductor-Dielectric 
 
 **Rule 1: (Tangential E-Field is Zero)**
 
+![Tangential E-Field Equation](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/et-equation.png)
+
 This law dictates that the electric field of the signal must leave the center conductor's surface at a perfect 90° angle. It cannot travel along the surface. This forces the E-field to be purely radial.
 
 **Rule 2: Normal D-Field = Surface Charge**
+
+![Normal D-Field Equation](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/dn-equation.png)
 
 This law states that the strength of that radial E-field is exactly proportional to the signal charge on the center wire at that instant. This ensures that all the energy launched into the dielectric perfectly matches the signal's voltage.
 
@@ -75,6 +83,8 @@ This impedance is Z₀ = √(L/C). The capacitance, C, is determined by the perm
 **Rule 3:** E_t1 = E_t2 (Tangential E-Field is Continuous)
 
 **Rule 4:** D_n1 = D_n2 (Normal D-Field is Continuous)
+
+![Dielectric Polarization](https://github.com/annuncio8427/skill-assessment-EMF/blob/main/images/dielectric-polarization.png)
 
 ### Practical Result: The "Perfect Highway"
 
